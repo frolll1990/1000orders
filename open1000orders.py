@@ -1,9 +1,9 @@
 import socket
-HOST = str(input('default 127.0.0.1 \n->'))
+HOST = str(input('Enter wik5 IP or for default press ENTER\nDefault 127.0.0.1  \n->'))
 if HOST == '' :
     HOST = '127.0.0.1'
 
-PORT = str(input('default = 12345 \n->'))
+PORT = str(input('Enter wik5 port or for default press ENTER\nDefault = 12345 \n->'))
 if PORT == '':
     PORT = int(12345)
 
